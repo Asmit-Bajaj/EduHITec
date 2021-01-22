@@ -1,0 +1,731 @@
+/*Over riding the bootstrap validation*/
+.form-control.is-valid, .was-validated .form-control:valid {
+   	background-image:none;
+    border: 1px solid #ced4da;
+}
+
+.form-control.is-valid:focus, .was-validated .form-control:valid:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    background-image: none;
+}
+
+
+/*CSS By Me*/
+
+/*For Quiz*/
+.img-Div{
+		display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+	}
+	
+	.img-Div-option{
+		display: flex;
+		 overflow: hidden;
+	}
+	
+	.img-actual{
+		flex-shrink: 0;
+          max-width: 100%;
+          max-height: 100%;
+	}
+	
+	.ques-div{
+		padding: 3%;
+		margin:3% 3%;
+		border: 2px solid #cbcbdc73;
+	    box-shadow: 7px 12px #0a0ae082;
+	    border-radius: 10px;
+	    scroll-margin-top:6rem;
+	}
+	
+	/*.timer-display{
+		margin-top:4%;
+		color:red;
+	}*/
+	
+	.marks{	
+		color:#8f05f7fc;
+		float:right;
+	}
+	
+	.neg-marking{
+		color:#8f05f7fc;
+        float:right;
+        white-space: pre-wrap;
+        
+	}
+	
+	.fill-blank{
+		color:#8f05f7fc;
+		margin-top:4%;
+	}
+	
+	.exp{
+		color:#8f05f7fc;
+		margin-top:4%;
+	}
+	
+	.next-button{
+		float:right;
+		margin-right:4%;
+		margin-bottom: 5%;
+	}
+	
+	.clear-section{
+		float:right;
+		color:#8f05f7fc;
+		padding:10px;
+        transition: 0.5s;
+	}
+	
+	.clear-section:hover{
+            padding:15px;
+            cursor: pointer;
+            background-color:#8080800f;
+            border-bottom:1px solid#8080800f;
+            transition:0.5s;
+            border-radius: 10px 10px;
+    }
+    
+    .overAll-Timer{
+    	position: sticky;
+    	top:0;
+    	margin-top:3%;
+    	margin-bottom:5%;
+    	padding:10px;
+    	background-color: #8f05f799;
+    	z-index:1;
+    	color:white;
+    }
+    
+    .quizheading:hover{
+            background-color:#8080800f;
+            cursor:pointer;
+            border-bottom:1px solid#8080800f;
+            transition:0.5s;
+        }
+
+    .quizheading{
+            padding:10px;
+            border-bottom:1px solid grey;
+            border-radius: 10px;
+            margin:3%;
+            transition:0.5s;
+            color:#0808c3a8;
+   }
+   
+   .inst{
+            margin:5%;
+            padding:10px;
+        }
+
+        .alert {
+            background-color: #ffd48a; /* Red */
+            /* width:50%; */
+            margin-top:15%;
+            margin-left:20%;
+            margin-right:20%;
+            padding:5%;
+            position:relative;
+            border-radius:5px;
+            box-shadow:0 0 15px 5px #ccc;
+        }
+        
+       .marksDiv{
+            padding: 3%;
+		      margin:5% 3%;
+		      border: 2px solid #cbcbdc73;
+	        box-shadow: 7px 12px #0a0ae082;
+	        border-radius: 10px;
+	        scroll-margin-top:6rem;
+          color: blueviolet;
+        }
+
+        .myProgress {
+            width: 100%;
+            background-color: #ddd;
+            margin-top:5%;
+            margin-bottom: 4%;
+        }
+
+        .zero{
+            width: 0%;
+            height: 30px;
+            text-align:right;
+            padding:5px;
+            color:white;
+            background-color: white;
+        }   
+        
+.container {
+  width: 100%;
+  background-color: #ddd;
+  padding:0px;
+  margin:10px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.green{
+	background-color: #4CAF50;
+}
+
+.red{
+	background-color: #f44336;
+}
+
+.blue{
+	background-color: #2196F3;
+}
+
+.grey{
+	background-color: #808080;
+}
+
+/*Css for Table
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}*/
+
+/*for forms*/
+.educator-form-box{
+    padding:3%;
+    margin:3%;
+    border: 1px solid #80808040;
+    border-radius: 10px 10px;
+ }
+ 
+ 
+ /*CSS By Kritika Rana */
+ 
+ /* CSS for Index Page*/
+ .index-card {
+    padding: 10px;
+    border: none;
+    background-color: #fcfcfc;
+
+}
+
+.index-card-boxes {
+    padding: 10px;
+    border: none;
+    -webkit-box-shadow: 12px 9px 8px 11px rgba(171, 234, 255, 1);
+    -moz-box-shadow: 12px 9px 8px 11px rgb(184, 235, 252);
+    box-shadow: 12px 9px 8px 11px rgba(171, 234, 255, 1);
+
+}
+
+.index-img-container {
+    margin-top: 57px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.index-x-slides {
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to right, #f7f3f3, #ECE9E6, #f7f3f3);
+    background: linear-gradient(to right, #f7f3f3, #ECE9E6, #f7f3f3);
+    background-color: rgb(228, 225, 225);
+    margin: 10%
+}
+
+/*CSS for ABOUT US Page*/
+
+.aboutus-header {
+    margin: 5% 0% 3% 0%;
+    font-size: 54px;
+    border-bottom: 2px solid #dee7ec;
+    margin: 10px 30px 10px 30px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.aboutus-card-boxes {
+    padding: 40px;
+    border: none;
+    /* background-color: #fcfcfc; */
+    -webkit-box-shadow: 12px 9px 3px 11px #ECE9E6;
+    -moz-box-shadow: 12px 9px 3px 11px #ECE9E6;
+    box-shadow: 12px 9px 3px 11px #ECE9E6;
+
+}
+
+.aboutus-svg {
+    color: #6DD5FA;
+}
+
+.aboutus-card {
+    text-align: center;
+}
+.aboutus-navbar-dark .aboutus-navbar-nav .aboutus-nav-link {
+    color: white;
+    font-weight: 700;
+}
+
+/*CSS For Faqs Pages*/
+
+.faq-col {
+    /* background-color: #777; */
+    background-color: white;
+    color: rgb(19, 18, 18);
+    cursor: pointer;
+    padding: 2%;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    word-spacing: 1mm;
+    border-bottom: 1px solid rgb(219, 215, 215);
+}
+
+
+.faq-col:hover {
+    background-color: rgb(211, 210, 210);
+}
+
+.faq-col:after {
+    content: '\002B';
+    color: #44b3fd;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    width: 1em;
+    font-size: 20px;
+}
+
+.faq-content {
+    padding: 0px 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+
+}
+
+.faq-button:focus {
+    outline: none;
+    background-color: white;
+}
+
+.faq-navbar-dark .faq-navbar-nav .faq-nav-link {
+    color: white;
+    font-weight: 700;
+}
+
+.faq-header {
+    overflow: hidden;
+    margin-top: 16%;
+    margin-bottom: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid rgb(184, 184, 184);
+    /*background: url(.images/cover-photo_1.jpg);*/ 
+    padding:15px 10px 15px 10px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+.faq-p,
+.faq-li {
+    border: none;
+    color: rgb(102, 101, 101);
+    font-weight: 600;
+    font-size: 13.5px;
+}
+
+/*CSS FOR ADMIN SIDE BAR*/
+
+/* The sidebar menu */
+.admin-sidebar-button:focus{
+    outline: none;
+}
+.admin-sidebar-heading{
+  text-align: left;
+  padding:15px 15px 15px 15px;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  color:white;
+}
+.admin-sidebar {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background: #2980B9;
+  background: -webkit-linear-gradient(to right, #44b3fd, #6DD5FA, #FFFFFF);
+  background: linear-gradient(to right,#44b3fd, #6DD5FA, #6DD5FA);
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s;
+}
+  
+
+  /* The sidebar links */
+  .admin-sidebar .admin-a_tag {
+    margin: 25px 0px 25px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .admin-sidebar .admin-a_tag:hover {
+    color:  #818181;
+  }
+  /* for all the icons */
+  .admin-sidebar .admin-icons{
+    color: white;
+    margin-right:10px;
+
+  }
+  /* Position and style the close button (top right corner) */
+  .admin-sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* The button used to open the sidebar */
+  .admin-sidebar-button  {
+    font-size: 20px;
+    cursor: pointer;
+   /* color: #111; */
+   background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #44b3fd, #6DD5FA, #FFFFFF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#44b3fd, #6DD5FA, #FFFFFF);
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  /*Sub Lists*/
+  .admin-list-unstyled li .admin-a_tag{
+    font-size: 20px;
+    margin:0%;
+    padding-left: 20%;
+    margin-bottom:1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #02283a;
+    float: left;
+  }
+  
+
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+   #main {
+    transition: margin-left .5s; 
+    padding: 20px;
+  }
+   
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .admin-sidebar {padding-top: 15px;}
+    .admin-sidebar .admin-a_tag {font-size: 18px;}
+  }
+  
+
+.faq-main {
+    background-color: #dfdfdfdb;
+    height: auto;
+    padding: 5% 10% 5% 10%;
+    margin-bottom: 5%;
+}
+
+/*CSS FOR TABLE*/
+
+.table-tr{
+  border-radius: 3px;
+  padding: 25px 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  }
+  
+  .table-header{
+  background-color: #f8fb30;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  }
+  
+  .table .table-td, .table .table-th{
+    border: none;
+  }
+  
+  .table thead .table-th{
+    border:none;
+  }
+  
+  .table-td, .table-th{
+    display: flex;
+    flex-basis: 10%;
+  }
+  
+  .col{
+    display: flex;
+    flex-basis: 10%;
+  }
+  
+  /*CSS FOR EDUCATOR SIDEBAR*/
+  
+/* The sidebar menu */
+.educator-sidebar-button:focus{
+    outline: none;
+}
+.educator-sidebar-heading{
+  text-align: left;
+  padding:15px 15px 15px 15px;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  color:white;
+}
+  .educator-sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #44b3fd, #6DD5FA, #FFFFFF);
+    background: linear-gradient(to right,#44b3fd, #6DD5FA, #6DD5FA);
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+
+  /* The sidebar links */
+  .educator-sidebar .educator-a_tag {
+    margin: 25px 0px 25px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .educator-sidebar .educator-a_tag:hover {
+    color:  #818181;
+  }
+  /* for all the icons */
+  .educator-sidebar .educator-icons{
+    color: white;
+    margin-right:10px;
+
+  }
+  /* Position and style the close button (top right corner) */
+  .educator-sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* The button used to open the sidebar */
+  .educator-sidebar-button {
+    font-size: 20px;
+    cursor: pointer;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #44b3fd, #6DD5FA, #FFFFFF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#44b3fd, #6DD5FA, #FFFFFF);
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  /*Sub Lists*/
+  .educator-list-unstyled li .educator-a_tag{
+    font-size: 20px;
+    margin:0%;
+    padding-left: 20%;
+    margin-bottom:1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #02283a;
+  }
+    
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .educator-sidebar {padding-top: 15px;}
+    .educator-sidebar .educator-a_tag {font-size: 18px;}
+  }
+  
+  /*CSS for admin profile*/
+  .admin_profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 2px 3px 27px 28px #cff1fd;
+    -webkit-box-shadow: 2px 3px 27px 28px #cff1fd;
+    -moz-box-shadow: 2px 3px 27px 28px #cff1fd;
+    
+}
+
+.admin_profile_details p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color:rgb(56, 84, 85);
+}
+.admin_profile_button{
+    width:100%
+}
+.admin_profile_svg{
+    float:left;
+    margin-left:5%;
+    margin-right:10%;
+    text-decoration: none;
+}
+
+/*CSS FOR ADMIN HOME */
+
+.admin-home-icons{
+    color:white;
+}
+.admin-home-header {
+    margin: 5% 0% 3% 0%;
+    font-size: 30px;
+    margin: 3% 2% 1% 2%;
+    padding-bottom: 10px;
+    margin-bottom: 5%;
+    font-family: 'Dancing Script', cursive;
+  }
+
+    .admin-home-card-deck{
+    padding-top:30px; 
+    padding-bottom: 30px;
+    margin-right: 2%;
+    }
+    .admin-title-header {
+        margin: 5% 0% 3% 0%;
+        /* font-size: 54px; */
+        font-size:38px;
+        width:100%;
+        border-bottom: 2px solid #dee7ec;
+        margin: 10px 30px 10px 30px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+    }
+    .admin_home{
+        border-radius: 4.5rem;
+    }
+    .admin-title-icon{
+        color:#6DD5FA;
+    }
+    
+/*CSS FOR EDUCATOR HOME PAGE */
+  .educator-home-header {
+    margin: 5% 0% 3% 0%;
+    font-size: 30px;
+    border-bottom: 2px solid #dee7ec;
+    margin: 3% 3% 1% 3%;
+    padding-bottom: 10px;
+    margin-bottom: 5%;
+    font-family: 'Dancing Script', cursive;
+    }
+
+    .educator-home-card-deck{
+    padding-top:30px; 
+    padding-bottom: 30px;
+    }
+    
+/*CSS FOR STUDENT HOME PAGE*/
+.student-home-header {
+    margin: 5% 0% 3% 0%;
+    font-size: 54px;
+    border-bottom: 2px solid #dee7ec;
+    margin: 10px 30px 10px 30px;
+    padding-bottom: 10px;
+    margin-bottom: 50px
+    }
+
+    .student-home-card-deck{
+    background-color:#E9E4F0; 
+    padding-top:30px; 
+    padding-bottom: 30px;
+    }
+    
+    .student-home-main{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    }
+  
+ /*CSS FOR FOOTER */
+ 
+ .copy-right-block{
+    padding: 3% 0% 3% 0%;
+    font-size: 54px;
+    width:100%;
+    border-top: 2px solid #c6d3db;
+    /* margin: 10px 30px 10px 30px; */
+    padding-bottom: 50px;
+    /* margin-bottom: 50px; */
+
+}
+.my_footer{
+    background-color:#f0f8ff5e ;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer-part {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  @media screen and (max-width:600px) {
+    .footer-part {
+      width: 100%;
+    }
+}
+
+.a_tag_footer{
+    color: black;
+    text-decoration: none;
+}
+.footer-svg{
+    margin:2%;
+}
