@@ -15,6 +15,7 @@ Technology Stack Used :-
 4. Java Server Pages
 5. Java Servlets
 6. BootStrap Framework
+7. MySQL DataBase
 
 Design Pattern Used :- Java Data Access Object (DAO) and Java Data Transfer Object (DTO)
 
