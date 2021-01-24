@@ -25,4 +25,6 @@ API's Used :-
 3. Java File Uploading API
 4. Servlet and DataBase Connectivity JAR
 
-<img src="screenshots/1.jpeg" height="400" alt="Screenshot"/> <img src=“screenshots/2.jpeg" height="400" alt="Screenshot"/>
+<h3><u>Screenshots</u></h3> :- 
+
+<img src="screenshots/1.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/3.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/4.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/5.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/6.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/7.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/8.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/9.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/10.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/11.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/12.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/13.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/14.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/15.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/16.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/17.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/18.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/19.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/20.jpeg" height="400" alt="Screenshot"/>
