@@ -24,3 +24,5 @@ API's Used :-
 2. Java Mail API
 3. Java File Uploading API
 4. Servlet and DataBase Connectivity JAR
+
+<img src="screenshots/1.jpeg" height="400" alt="Screenshot"/> <img src=“screenshots/2.jpeg" height="400" alt="Screenshot"/>
